@@ -1,0 +1,28 @@
+header .logo {
+    background-color: #ffc107;
+}
+header .menu{
+    background-color: #ffa000; /*Cor de fundo */
+}
+header .menu ul{
+    margin:0 ; /*Margin = espaçamento externo*/
+    list-style: none;
+}
+header .menu ul li{
+display: inline-block;
+}
+header .menu ul li a{
+text-decoration: none;
+color: #fdfdfd;
+}
+main section.banner{
+    height: 600px;
+    background-color: cadetblue;
+    background-image: url(../img-omma/banner.png);
+}
+main section.banner .container {
+    display: flex;
+    justify-content: flex-end; /* alinhamento horizontal pra direita */
+    align-items: center; /* alinhamento vertical centralizado */
+    height: 600px; /* altura */
+}
